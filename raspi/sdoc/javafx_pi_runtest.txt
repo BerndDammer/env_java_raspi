@@ -145,6 +145,10 @@ sudo raspi-config
 ----------------------------------
 ro separate add in cmdline.txt
 
+mount -o remount,ro /
+mount -o remount,rw /
+/etc/fstab
+
 
 >>>>>>>>>>>>>>>> ask raspi version
 ----------------------------------------
