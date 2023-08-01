@@ -1,0 +1,9 @@
+Hifiberry amp+
+dtoverlay=hifiberry-amp
+
+Hifiberry AMP 2
+dtoverlay=hifiberry-dacplus
+
+
+MINIAMP 1.0
+dtoverlay=hifiberry-dac
