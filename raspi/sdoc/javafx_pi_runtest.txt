@@ -159,6 +159,19 @@ cat /sys/firmware/devicetree/base/model
 cat /proc/device-tree/model
 
 
+*****************************************
+sudo apt install openjdk-17-jdk
+instead of above
+************************************
+
+
+
+
+
+
+
+
+
 Links
 -----------------------------------------
 https://stackoverflow.com/questions/61305727/head-cannot-open-etc-ssl-certs-java-cacerts-for-reading-no-such-file-or-dir
