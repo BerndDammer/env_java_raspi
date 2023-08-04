@@ -7,6 +7,9 @@ apt upgrade
 apt install ca-certificates-java
 apt install openjdk-17-jre-headless
 
+>>>>>>>> Korrektur
+rm app
+-- es muss auch ca-certificates-java vorher gemacht werden ... sonst install crash
 
 >>>>
 >>>>>>>>>>> magic install to get it running
