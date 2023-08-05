@@ -15,5 +15,9 @@ raspi/x2goclient
 raspi/bootcode/*.zip
 
 
-non_start_e8/*.jar
+non_start_e8/*.*
+!non_start_e8/*.bat
+
+non_start_e8/jre*
+
 
