@@ -176,8 +176,14 @@ Im Imager for schreiben
 Grundeinstellungen einimpfen
 +++++++++++++++++++++++++++++++++++++
 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> AUTOSTART
+copy kiosk.service to /lib/systemd/system/kiosk.service
+sudo systemctl enable kiosk.service
 
-
+>>>>>>>>> test and check
+sudo systemctl start kiosk.service
+sudo systemctl stop kiosk.service
+systemctl status kiosk.service
 
 
 
@@ -197,6 +203,9 @@ https://wiki.openjdk.org/display/OpenJFX/Monocle
 https://abhinay.xyz/javafx/2022/10/03/OpenJFX-flags.html
 
 https://www.raspberrypi-spy.co.uk/2012/09/checking-your-raspberry-pi-board-version/
+
+>>>>>>>>>>>>>> Raspberry pi kiosk mode
+https://www.raspberrypi.com/tutorials/how-to-use-a-raspberry-pi-in-kiosk-mode/
 
 >>>>>>>>>>>>> what dont work
 ---------------------

@@ -1,0 +1,15 @@
+[Unit]
+Description=Kiosk mode for javafx headless application
+Wants=multi-user.target
+After=multi-user.target
+
+[Service]
+WorkingDirectory=/home/pi/app
+Type=simple
+ExecStart=java -jar app.jar
+Restart=on-abort
+User=root
+Group=root
+
+[Install]
+WantedBy=multi-user.target

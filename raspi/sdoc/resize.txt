@@ -1,0 +1,7 @@
+plug into other raspbian computer
+
+sudo umount /dev/sda2
+sudo e2fsck -f /dev/sdb2
+sudo resize2fs -p /dev/sdb2 4194304
+(4k blocks) ????
+
