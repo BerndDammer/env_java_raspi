@@ -5,3 +5,14 @@ sudo e2fsck -f /dev/sdb2
 sudo resize2fs -p /dev/sdb2 4194304
 (4k blocks) ????
 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+avoid resizing of file system
+put the stick after image-write before first boot
+into
+a headless raspian WITHOUT auto mount
+create a partition BEHIND the secont rootfs partition
+formatting is not necessary
+.
+make the first boot 
+has longer delay and does NOT resize
+

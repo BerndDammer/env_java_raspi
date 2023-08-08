@@ -1,5 +1,5 @@
 apt update
-apt upgrade -y
+apt full-upgrade -y
 
 apt install ca-certificates-java -y
 apt install openjdk-17-jre -y
