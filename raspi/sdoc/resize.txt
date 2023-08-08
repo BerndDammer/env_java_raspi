@@ -16,3 +16,14 @@ formatting is not necessary
 make the first boot 
 has longer delay and does NOT resize
 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Default partition size is too small
+
+1. Create 3rd partition as above 
+2. Make first boot 
+   Does not resize ( letting space betwen 2nd and 3rd partition does not help)
+3. After second boot ... prompt avaiable
+   fdisk: delete 2nd partition and recreate with bigger size
+4. resize2fs /dev/sda2
+5. fdisk: löschen von paritition 3
+5. reboot
