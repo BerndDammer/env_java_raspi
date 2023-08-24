@@ -1,0 +1,41 @@
+Datei als user editieren
+
+/etc/ssh/sshd_config
+
+Zeile aktivieren
+
+PasswordAuthentication yes
+
+Aktivierung
+systemctl restart ssh.service
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------------
+
+
+Virtuelle Server: SSH Passwort-Authentifizierung abschalten für Linux-Server
+Wenn Du deinen Linux Server so eingerichtet hast, dass die Authentifizierung über einen SSH-Key stattfindet, empfiehlt es sich, die Passwort-Authentifizierung gleich ganz abzuschalten. So minimierst Du die Angriffsfläche für deinen Server immens.
+
+Manuell über SSH
+Das Abschalten der Passwort-Authentifizierung ist eigentlich ganz einfach. Öffne die Konfigurations-Datei /etc/ssh/sshd_config mit einem Text-Editor (bspw. nano).
+
+Finde die Zeile
+
+#PasswordAuthentication yes
+Entferne das „#“ in dieser Zeile. Tausche das „yes“ aus – „no“ sollte dort am Ende stehen.
+
+PasswordAuthentication no
+Speichere die Datei ab und starte den SSH-Server neu. Das geht mit dem Befehl:
+
+service ssh restart
+Lasse die aktuelle SSH-Sitzung ge
