@@ -1,0 +1,11 @@
+Install in luci:
+LuCi: System->Software
+
+
+openvpn-easy-rsa
+openvpn-openssl
+luci-app-openvpn
+luci-i18n-openvpn-en
+
+
+-----------------------
