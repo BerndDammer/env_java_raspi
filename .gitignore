@@ -20,5 +20,4 @@ non_start_e8/*.*
 !non_start_e8/*.bat
 
 non_start_e8/jre*
-
-
+!raspi/app/**
