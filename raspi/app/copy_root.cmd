@@ -1,3 +1,4 @@
 call ..\..\SetEnv.bat
-scp at4.jar pi@mac3:~/app
+call SetTarget.bat
+scp -v inst1.sh kiosk.service %USER%@%TARGET%:~
 pause -----------------------pc-----------------------

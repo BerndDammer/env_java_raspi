@@ -1,3 +1,4 @@
 call ..\..\SetEnv.bat
-start putty pi@raspberrypi -pw pi
+call SetTarget.bat
+start putty %USER%@%TARGET% -pw pi
 rem pause

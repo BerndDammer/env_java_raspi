@@ -1,3 +1,4 @@
 call ..\..\SetEnv.bat
-scp -v inst1.sh pi@wdr3600:~
+call SetTarget.bat
+ssh %USER%@%TARGET% chmod a+rwx *
 pause -----------------------pc-----------------------

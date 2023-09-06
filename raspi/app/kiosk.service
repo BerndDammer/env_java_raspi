@@ -4,7 +4,7 @@ Wants=multi-user.target
 After=multi-user.target
 
 [Service]
-WorkingDirectory=/home/pi/app
+WorkingDirectory=/home/pi
 Type=simple
 ExecStart=java -jar app.jar
 Restart=on-abort

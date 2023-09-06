@@ -1,0 +1,16 @@
+ Datentr„ger in Laufwerk C: ist BOOT
+ Volumeseriennummer: 7C6A-B3FC
+
+ Verzeichnis von c:\Windows\System32\OpenSSH
+
+06.10.2021  15:29    <DIR>          .
+06.10.2021  15:29    <DIR>          ..
+06.10.2021  15:25           307.712 scp.exe
+06.10.2021  15:25           374.272 sftp.exe
+06.10.2021  15:25           481.280 ssh-add.exe
+06.10.2021  15:25           382.976 ssh-agent.exe
+06.10.2021  15:25           662.016 ssh-keygen.exe
+06.10.2021  15:25           557.568 ssh-keyscan.exe
+06.10.2021  15:25           946.176 ssh.exe
+               7 Datei(en),      3.712.000 Bytes
+               2 Verzeichnis(se), 54.694.301.696 Bytes frei

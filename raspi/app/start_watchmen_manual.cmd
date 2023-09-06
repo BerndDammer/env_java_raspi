@@ -1,3 +1,4 @@
 call ..\..\SetEnv.bat
-scp at4.jar pi@raspberrypi:~/app
+call SetTarget.bat
+ssh %USER%@%TARGET% java -jar watchmen.jar
 pause -----------------------pc-----------------------
