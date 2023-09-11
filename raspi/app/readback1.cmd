@@ -1,4 +1,3 @@
-call ..\..\SetEnv.bat
 call SetTarget.bat
-scp -v inst1.sh kiosk.service %USER%@%TARGET%:~
+scp %USER%@%TARGET%:/usr/lib/raspberrypi-sys-mods/* raspberrypi-sys-mods
 pause -----------------------pc-----------------------

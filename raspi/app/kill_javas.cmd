@@ -1,3 +1,3 @@
-call ..\..\SetEnv.bat
-scp pi@raspberrypi:~/t1 t1
+call SetTarget.bat
+ssh %USER%@%TARGET% killall java
 pause -----------------------pc-----------------------

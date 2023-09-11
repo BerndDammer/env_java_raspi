@@ -1,4 +1,3 @@
-call ..\..\SetEnv.bat
 call SetTarget.bat
-ssh %USER%@%TARGET% killall java
+scp %USER%@%TARGET%:/boot/config.txt config.txt
 pause -----------------------pc-----------------------

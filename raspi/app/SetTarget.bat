@@ -1,2 +1,2 @@
-SET USER=pi
-SET TARGET=192.168.178.35
+SET USER=ningning
+SET TARGET=ningning.station43
