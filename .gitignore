@@ -25,3 +25,6 @@ non_start_e8/jre*
 raspi/OpenWRT/**/*.conf
 raspi/OpenWRT/**/*.key
 raspi/OpenWRT/**/*.psk
+
+raspi/vnc/*.jar
+raspi/vnc/*.zip
