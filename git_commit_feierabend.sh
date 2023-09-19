@@ -1,5 +1,5 @@
 git add .
-git commit -m "remote openocd"
+git commit -m "two openocd servers"
 git push
 git push --tags
 read
