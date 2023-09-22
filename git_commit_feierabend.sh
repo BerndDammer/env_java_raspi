@@ -1,5 +1,5 @@
 git add .
-git commit -m "two openocd servers"
+git commit -m "terminal start; load binaries"
 git push
 git push --tags
 read
