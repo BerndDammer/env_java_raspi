@@ -1,5 +1,5 @@
 git add .
-git commit -m "xoscope vncserver"
+git commit -m "feierabend"
 git push
 git push --tags
 read

@@ -1,2 +1,2 @@
-SET USER=aeningning
-SET TARGET=aewinter.station36
+SET USER=siu
+SET TARGET=ningning.station43
