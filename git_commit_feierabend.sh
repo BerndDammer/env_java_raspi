@@ -1,5 +1,5 @@
 git add .
-git commit -m "set card"
+git commit -m "xoscope vncserver"
 git push
 git push --tags
 read
